@@ -37,7 +37,7 @@ class Index extends Action
      */
     public function execute()
     {
-        echo "This is Module Two Index!";
+        echo "This is Module Two Index! Remotely Developed that is.";
         exit();
         return $this->resultPageFactory->create();
     }
